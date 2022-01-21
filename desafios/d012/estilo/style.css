@@ -8,10 +8,6 @@
     --fonte-cordel:  'Sriracha', cursive;
 }
 
-* {
-    margin: 0;
-}
-
 header{
     background-color: black;
     color: white;
