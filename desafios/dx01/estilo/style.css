@@ -10,6 +10,7 @@ body {
 header {
     background-color: white;
     color: rgb(58, 57, 57);
+    padding: 10px;
 }
 
 nav {
@@ -37,3 +38,16 @@ main {
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.26);
 }
 
+section {
+    padding: 10px;
+    color: black;
+}
+
+section.imagem {
+    height: 50vh;
+}
+
+section#img01 {
+    background: black url('../imagens/mountain-sea.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
