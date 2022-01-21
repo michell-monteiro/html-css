@@ -48,6 +48,14 @@ section.imagem {
 }
 
 section#img01 {
-    background: black url('../imagens/mountain-sea.jpg') right center no-repeat fixed;
+    background: black url('../imagens/mountain-sea-low.jpg') right center no-repeat fixed;
     background-size: cover;
+}
+
+img {
+    display: inline-block;
+    max-height: 200px;
+    max-width: 300px;
+    padding: 10px;;
+    padding-left: 35px;
 }
