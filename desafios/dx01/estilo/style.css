@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(204, 202, 202);
 }
 
 header {
@@ -36,3 +36,4 @@ main {
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.26);
 }
+
