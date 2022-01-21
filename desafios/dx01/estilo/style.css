@@ -42,13 +42,20 @@ section {
     padding: 10px;
     color: black;
 }
-
 section.imagem {
     height: 50vh;
 }
-
+section.imagem > h2, p{
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+}
 section#img01 {
     background: black url('../imagens/mountain-sea-low.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+section#img02 {
+    background: black url('../imagens/castle-snow.jpg') top center no-repeat fixed;
     background-size: cover;
 }
 
@@ -57,5 +64,4 @@ img {
     max-height: 200px;
     max-width: 300px;
     padding: 10px;;
-    padding-left: 35px;
 }
