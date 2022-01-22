@@ -13,10 +13,18 @@
             width: 400px;
             border-collapse: collapse;
         }
+        
+        tr.cinza {
+            background-color: gray;
+        }
+
         td {
             border: 1px solid black;
             text-align: center;
             padding: 10px;
+        }
+        td.dado {
+            background-color: chartreuse;
         }
     </style>
 </head>
@@ -29,14 +37,14 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr>
+        <tr class="cinza">
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr>
             <td>A3</td>
-            <td>B3</td>
+            <td class="dado">B3</td>
             <td>C3</td>
         </tr>
         <tr>
