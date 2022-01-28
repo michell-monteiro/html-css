@@ -28,6 +28,11 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px; /*Por que -1? É porque o google deixa um pequeno espaço com o valor 0px*/
+            background-color: gray;
+        }
         tbody > tr:nth-child(even) {
             background-color: white;
         }tbody > tr:nth-child(odd) {
