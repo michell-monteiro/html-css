@@ -10,11 +10,17 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: 400px;
+            width: 700px;
             border-collapse: collapse;
         }
         th, td {
             border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        th.main-title {
+            background-color: gray;
+            color: white;
         }
     </style>
 </head>
@@ -26,10 +32,10 @@
         </caption>
         <thead>
             <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplina</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th rowspan="2" class="main-title">Área</th>
+                <th rowspan="2" class="main-title">Disciplina</th>
+                <th colspan="2" class="main-title">Notas</th>
+                <th rowspan="2" class="main-title">Média</th>
             </tr>
             <tr>
                 <th>Nota 1</th>
@@ -38,7 +44,7 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" class="main-title">Exatas</th>
                 <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -63,11 +69,11 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4">Média de Exatas</th>
+                <th colspan="4" class="main-title">Média de Exatas</th>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" class="main-title">Humanas</th>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -80,7 +86,7 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <th colspan="4">Média de Humanas</th>
+                <th colspan="4" class="main-title">Média de Humanas</th>
                 <td>0.0</td>
             </tr>
         </tbody>
